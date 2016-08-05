@@ -245,14 +245,14 @@ Angular-CLI supports all major CSS preprocessors:
 - compass ([http://compass-style.org/](http://compass-style.org/))
 - stylus ([http://stylus-lang.com/](http://stylus-lang.com/))
 
-To use these prepocessors simply add the file to your component's `styleUrls`:
+To use these prepocessors simply add the file (with css extenstion, post-processing) to your component's `styleUrls`:
 
 ```
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss']
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {
   title = 'app works!';
